@@ -1,0 +1,48 @@
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.mood {
+  height: 150px;
+  width: 150px;
+  float: left;
+  border: 2px solid #666;
+  background-color: #ccc;
+  margin-right: 5px;
+  text-align: center;
+  cursor: move;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.mood header {
+  color: #000;
+  box-shadow: 5px;
+  padding:40% 0;
+  height:20%;
+}
+#moods header#a {
+	background:orange;
+}
+#moods header#b {
+	background:yellow;
+}
+#moods header#c {
+	background:green;
+}
+.mood.over {
+  border: 2px dashed #000;
+}
+#dropBox{
+	clear: both;
+	float: left;
+	border: 2px solid #666;
+	background-color: #ccc;
+	width: 45%;
+	height: 100px;
+	margin: 5px 0;
+	display: block
+	
+
+}
